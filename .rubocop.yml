@@ -2,7 +2,7 @@ AllCops:
   NewCops: enable
   Exclude:
     - "db/**/*"
-    - "bin/*" 
+    - "bin/*"
     - "config/**/*"
     - "Guardfile"
     - "Rakefile"
@@ -25,7 +25,7 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
-  IgnoredMethods: ['describe']
+  IgnoredMethods: ["describe"]
   Max: 30
 
 Style/Documentation:
@@ -40,8 +40,6 @@ Style/DefWithParentheses:
   Enabled: false
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
-Style/BlockDelimiters:
-  Enabled: false
 
 Layout/HashAlignment:
   EnforcedColonStyle: key
@@ -60,19 +58,7 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
-Layout/EndOfLine:
-  EnforcedStyle: lf
-StringLiterals:
+Style/StringLiterals:
   Enabled: false
-Layout/EndOfLine:
-   Enabled: False
-Style/EmptyMethod:
-  Enabled: False
 Style/RedundantConstantBase:
-  Enabled: False
-Style/BlockComments:
-  Enabled: False
-Style/RedundantParentheses:
-  Enabled: False
-Style/FrozenStringLiteralComment:
-  Enabled: False
+  Enabled: false
