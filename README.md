@@ -5,7 +5,7 @@
  
   <br/>
 
-  <h1><b>Blog App Website</b></h1>
+  <h1><b>Recipe App Website</b></h1>
 
 </div>
 
